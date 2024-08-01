@@ -770,9 +770,9 @@ function toggleExpansion(checkbox) {
 	console.log(elements);
 	for (var i = 0; i < elements.length; ++i) {
 		if (checkbox.checked) {
-			elements[i].classList.add("hidden");
-		} else {
 			elements[i].classList.remove("hidden");
+		} else {
+			elements[i].classList.add("hidden");
 		}
 	}
 }
