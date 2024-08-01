@@ -585,7 +585,7 @@ function draw(autodiscard, dosave) {
 					+ '<a class="arrow right" href="#" onclick="addToken(this); return false">▶</a>'
 				+ '</div>';
 		}
-		html += '<a class="close" href="#" onclick="hide(this); return false">✖</a>';
+		html += '<a class="close" href="#" onclick="hide(this); return true">✖</a>';
 
 		card.innerHTML = html;
 	}
